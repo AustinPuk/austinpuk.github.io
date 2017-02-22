@@ -110,12 +110,12 @@ body {
   padding-left: 10px;  
   padding-bottom: 5px;  
   background-color: #e3e8ef;  
-  border-style: solid;
+  border-style: none;
 }
 
 .intro {
   text-align: center;    
-  border-style: solid;
+  border-style: none;
 }
 
 .intro .desc {
@@ -124,7 +124,7 @@ body {
   color: #6f7678;
   width: 550px;
   margin: auto;
-  border-style: solid;
+  border-style: none;
 }
 
 .intro .desc span{
@@ -143,7 +143,7 @@ body {
   vertical-align: top;
   width: 200px;
   height: 100px;  
-  border-style: solid;
+  border-style: none;
 }
 
 .half .title{
@@ -163,7 +163,7 @@ body {
   padding: 10px;  
   width: 200px;
   margin: auto;
-  border-style: solid;
+  border-style: none;
   font-size: 2em;
   font-family: 'open_sansextrabold';
   color: #454545;
@@ -183,20 +183,20 @@ body {
   width: 100%;
   text-align: center;
   padding-top: 10px;  
-  border-style: solid;  
+  border-style: none;  
 }
 
 .tab{   
   display: table-cell;   
   width: 150px;
   height: 100px;
-  border-style: solid;
+  border-style: none;
   text-align: center;  
   vertical-align: middle;  
 }
 
 .tab .title{         
-  border-style: solid;
+  border-style: none;
 }
 
 .button {
@@ -208,6 +208,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .project-section{  
@@ -232,7 +233,7 @@ body {
 
 .project{  
   width:100%;
-  border-style: solid;
+  border-style: none;
 }
 
 .project .title{
@@ -255,7 +256,7 @@ body {
   text-align: right;
   width: 90px;
   height: 75px;
-  border-style: solid;
+  border-style: none;
 }
 
 .project .desc{ 
