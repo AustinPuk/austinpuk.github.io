@@ -71,18 +71,19 @@ body {
   padding-top: 10px;
   padding-right: 10px;
   padding-left: 10px;       
+  background: none;
 }
 
 
-.header {  
+.header {
   padding-right: 10px;
   padding-left: 10px;    
   text-align: left;
   color: #6f7678;      
   box-sizing: border-box;
-  height: 120px; 
+  height: 140px; 
   width: 600px;
-  margin: auto;
+  margin: auto;  
 }
 
 .header .name {
@@ -96,16 +97,43 @@ body {
   font-family: 'open_sansbold';
 }
 
-.header .contact {
-  font-family: 'open_sansregular';
-  font-size:15px;
+.header .contact {  
   float: right;
   text-align: right;  
-  padding-top: 5px;  
+  padding-top: 5px;   
+}
+
+.header .contact p{
+  font-family: 'open_sansregular';
+  font-size:15px;
+  line-height: 5px;
+}
+
+.media {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.media-icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 42px;
+  height: 42px;
+  margin: 0 6px;
+  cursor: pointer;
+  border-style: solid;
+}
+
+.media-icon:hover path{
+  fill: #000000;
+}
+
+.media-icon path{
+  fill: #878787;
 }
 
 .intro-section {
-  padding-top: 5px;
+  padding-top: 30px;
   padding-right: 10px;
   padding-left: 10px;  
   padding-bottom: 5px;  
@@ -127,9 +155,14 @@ body {
   border-style: none;
 }
 
-.intro .desc span{
-  font-size: 25px;   
+.intro .hello{
+  font-size: 23px;   
   color: #4286f4;
+}
+
+.intro .name{
+  font-size: 23px;   
+  color: #4286a4;
 }
 
 .intro .split {
@@ -141,13 +174,13 @@ body {
 .intro .half{
   display: inline-block;
   vertical-align: top;
-  width: 200px;
-  height: 100px;  
+  width: 270px;
+  height: 135px;  
   border-style: none;
 }
 
 .half .title{
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 1.3em;
   font-family: 'open_sansextrabold';
   color: #454545;
@@ -156,25 +189,31 @@ body {
 .half .sub{
   color: #454556;
   font-weight: bold;
-  font-size: 1em;  
+  font-size: 0.8em;  
+}
+
+.half .sub1{
+  color: #454588;
+  font-weight: bold;
+  font-size: 1.1em;  
 }
 
 .intro .resume{ 
-  padding: 10px;  
+  padding: 30px;  
   width: 200px;
   margin: auto;
   border-style: none;
   font-size: 2em;
-  font-family: 'open_sansextrabold';
+  font-family: 'open_sansextrabold'; 
   color: #454545;
 }   
 
 .main-section{
-  background: #e3e8ef;  
+  background: #a3c8ce;  
 }
 
 .tab-section{
-  width: 550px;
+  width: 600px;
   margin: auto;
 }
 
@@ -207,8 +246,14 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 17px;
     cursor: pointer;
+    width: 190px;
+    height: 100px;
+}
+
+.button:focus {
+  border: 2px solid blue;
 }
 
 .project-section{  
@@ -233,13 +278,15 @@ body {
 
 .project{  
   width:100%;
-  border-style: none;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .project .title{
+  padding-top: 20px;
   padding-left: 20px;  
   font-family: 'open_sansextrabold';  
-  font-size: 35px;
+  font-size: 25px;
   color: #454545;
 }
 
@@ -252,19 +299,27 @@ body {
 
 .project .image{  
   float: right;
-  margin: 5px 5px 10px 10px;
+  margin: 5px 5px 0px 0px;
   text-align: right;
-  width: 90px;
-  height: 75px;
+  width: 110x;
+  height: 85px;
   border-style: none;
 }
 
 .project .desc{ 
   padding-left: 5px;
-  padding-top: 25px;
+  padding-top: 15px;
   font-family: 'open_sansregular';  
   font-size: 15px;
-  color: #454545;
+  color: #454545;  
+}
+
+.project .info{ 
+  padding-top: 5px; 
+  padding-left: 5px;  
+  font-family: 'open_sansregular';  
+  font-size: 15px;
+  color: #454545;  
 }
 
 .project .skills{
