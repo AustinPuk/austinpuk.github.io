@@ -81,7 +81,7 @@ body {
   color: #6f7678;      
   box-sizing: border-box;
   height: 120px; 
-  width: 700px;
+  width: 600px;
   margin: auto;
 }
 
@@ -138,25 +138,25 @@ body {
   margin: auto;
 }
 
-.intro .split .half{
+.intro .half{
   display: inline-block;
   vertical-align: top;
-  width: 300px;
-  height: 200px;  
+  width: 200px;
+  height: 100px;  
   border-style: solid;
 }
 
-.intro .split .half .title{
+.half .title{
   margin-top: 20px;
-  font-size: 2em;
+  font-size: 1.3em;
   font-family: 'open_sansextrabold';
   color: #454545;
 }
 
-.intro .split .half .sub{
+.half .sub{
   color: #454556;
   font-weight: bold;
-  font-size: 1.2em;  
+  font-size: 1em;  
 }
 
 .intro .resume{ 
@@ -167,4 +167,126 @@ body {
   font-size: 2em;
   font-family: 'open_sansextrabold';
   color: #454545;
+}   
+
+.main-section{
+  background: #e3e8ef;  
+}
+
+.tab-section{
+  width: 550px;
+  margin: auto;
+}
+
+.tab-divider{
+  display: table;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;  
+  border-style: solid;  
+}
+
+.tab{   
+  display: table-cell;   
+  width: 150px;
+  height: 100px;
+  border-style: solid;
+  text-align: center;  
+  vertical-align: middle;  
+}
+
+.tab .title{         
+  border-style: solid;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.project-section{  
+  width: 600px;
+  margin: auto;
+} 
+
+.robotics{  
+  padding-top: 30px;
+  display: none;
+}
+
+.gamedev{
+  padding-top: 30px;
+  display: none;
+}
+
+.graphics{
+  padding-top: 30px;
+  display: none;
+}
+
+.project{  
+  width:100%;
+  border-style: solid;
+}
+
+.project .title{
+  padding-left: 20px;  
+  font-family: 'open_sansextrabold';  
+  font-size: 35px;
+  color: #454545;
+}
+
+.project .date{
+  padding-left: 20px;
+  font-family: 'open_sansbold';
+  font-size: 15px;
+  color: #454545;
+}
+
+.project .image{  
+  float: right;
+  margin: 5px 5px 10px 10px;
+  text-align: right;
+  width: 90px;
+  height: 75px;
+  border-style: solid;
+}
+
+.project .desc{ 
+  padding-left: 5px;
+  padding-top: 25px;
+  font-family: 'open_sansregular';  
+  font-size: 15px;
+  color: #454545;
+}
+
+.project .skills{
+  padding-top: 10px;
+  padding-left: 5px;
+  line-height: 8px;
+  font-family: 'open_sansbold';  
+  font-size: 15px;
+  color: #454545;
+}
+
+.project .skills p{
+  font-family: 'open_sansregular';  
+  font-size: 14px;
+  color: #454545;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #EEEEEE;
+  color: #878787;
+  text-align: center;
+  font-size: 0.9em; 
 }
