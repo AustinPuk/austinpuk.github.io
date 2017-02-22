@@ -1,0 +1,170 @@
+/* Custom CSS by Austin Pukasamsombut*/
+
+/* Fonts */
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/opensans-extrabold-webfont.eot');
+    src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+         url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+  text-decoration: none; }
+
+a:visited { 
+  color: #6f7678; }
+   
+a:link { 
+color: #6f7678; }
+
+a:active { 
+color: #6f7678; }
+
+a:hover {
+color: #b2c2c4; }
+
+
+/*body{background: url(../img/body.jpg) repeat; margin-top: 95px; margin-bottom: 40px;}*/
+
+body {  
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;       
+}
+
+
+.header {  
+  padding-right: 10px;
+  padding-left: 10px;    
+  text-align: left;
+  color: #6f7678;      
+  box-sizing: border-box;
+  height: 120px; 
+  width: 700px;
+  margin: auto;
+}
+
+.header .name {
+  line-height: 40px;
+  font-size: 30px;
+  font-family: 'open_sansextrabold'; 
+}
+
+.header .desc {
+  line-height: 20px;
+  font-family: 'open_sansbold';
+}
+
+.header .contact {
+  font-family: 'open_sansregular';
+  font-size:15px;
+  float: right;
+  text-align: right;  
+  padding-top: 5px;  
+}
+
+.intro-section {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;  
+  padding-bottom: 5px;  
+  background-color: #e3e8ef;  
+  border-style: solid;
+}
+
+.intro {
+  text-align: center;    
+  border-style: solid;
+}
+
+.intro .desc {
+  font-family: 'open_sansbold';
+  font-size: 20px;   
+  color: #6f7678;
+  width: 550px;
+  margin: auto;
+  border-style: solid;
+}
+
+.intro .desc span{
+  font-size: 25px;   
+  color: #4286f4;
+}
+
+.intro .split {
+  padding-top: 20px;  
+  width: 100%;  
+  margin: auto;
+}
+
+.intro .split .half{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 200px;  
+  border-style: solid;
+}
+
+.intro .split .half .title{
+  margin-top: 20px;
+  font-size: 2em;
+  font-family: 'open_sansextrabold';
+  color: #454545;
+}
+
+.intro .split .half .sub{
+  color: #454556;
+  font-weight: bold;
+  font-size: 1.2em;  
+}
+
+.intro .resume{ 
+  padding: 10px;  
+  width: 200px;
+  margin: auto;
+  border-style: solid;
+  font-size: 2em;
+  font-family: 'open_sansextrabold';
+  color: #454545;
+}
