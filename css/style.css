@@ -53,19 +53,20 @@ a {
   text-decoration: none; }
 
 a:visited { 
-  color: #6f7678; }
-   
+  color: #6f7678; 
+}
+
 a:link { 
-color: #6f7678; }
+  color: #6f7678; 
+}
 
 a:active { 
-color: #6f7678; }
+  color: #6f7678; 
+}
 
 a:hover {
-color: #b2c2c4; }
-
-
-/*body{background: url(../img/body.jpg) repeat; margin-top: 95px; margin-bottom: 40px;}*/
+  color: #b2c2c4; 
+}
 
 body {  
   padding-top: 10px;
@@ -73,7 +74,6 @@ body {
   padding-left: 10px;       
   background: none;
 }
-
 
 .header {
   padding-right: 10px;
