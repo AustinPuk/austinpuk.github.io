@@ -202,7 +202,7 @@ body {
 .half .sub1{
   color: #454588;
   font-weight: bold;
-  font-size: 19px;  
+  font-size: 17px;  
 }
 
 .intro .resume{ 
@@ -346,17 +346,17 @@ body {
 }
 
 .project .skills{
-  padding-top: 10px;
-  padding-left: 5px;
-  line-height: 8px;
+  padding-top: 1px;
+  padding-left: 5px;  
   font-family: 'open_sansbold';  
   font-size: 15px;
   color: #454545;
 }
 
 .project .skills p{
-  font-family: 'open_sansregular';  
-  font-size: 14px;
+  font-family: 'open_sansregular';    
+  font-size: 14px;  
+  margin: 2px;
   color: #454545;
 }
 
